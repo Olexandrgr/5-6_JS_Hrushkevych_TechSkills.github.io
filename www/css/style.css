@@ -1,0 +1,25 @@
+.timer{
+  width: 30%;
+  margin: auto;
+}
+
+p.bg-primary {
+  text-align: center;
+  font-size: 60px;
+}
+
+.bg-primary {
+  height: 80px;
+  border-radius: 4px 22px;
+}
+
+.btn-group, .btn-group-vertical {
+  width: 100%;
+}
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  width: 50%;
+}
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+  width: 50%;
+}
